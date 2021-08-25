@@ -1,0 +1,116 @@
+@import "generales";
+
+.submitButton{
+    border-color:#132C33 ;
+    background-color: #132C33;
+}
+.button{
+    padding: 5px;
+}
+.titulos{
+    font-family: $font;
+}
+.map{
+    margin-top: 25px;
+    padding-top: 30px;
+}
+.email{
+    margin-bottom: 16px !important
+}
+.margin__form{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 1024px){
+        
+        .mapPosition{
+        margin-top: 40px;
+        }
+        .slide-in-left {
+            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        @-webkit-keyframes slide-in-left {
+            0% {
+            -webkit-transform: translateX(-1000px);
+                    transform: translateX(-1000px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+            opacity: 1;
+            }
+        }
+        @keyframes slide-in-left {
+            0% {
+            -webkit-transform: translateX(-1000px);
+                    transform: translateX(-1000px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+            opacity: 1;
+            }
+        }
+        
+        
+        
+        .slide-in-right {
+            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        @-webkit-keyframes slide-in-right {
+            0% {
+            -webkit-transform: translateX(1000px);
+                    transform: translateX(1000px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+            opacity: 1;
+            }
+        }
+        @keyframes slide-in-right {
+            0% {
+            -webkit-transform: translateX(1000px);
+                    transform: translateX(1000px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+            opacity: 1;
+            }
+        }
+}   
+  
+  
+  
+
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+    .submitButton{
+    border-color:#132C33 ;
+    background-color: #132C33;
+    }
+    .map{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .margin__form{
+        margin-top: 40px;
+    }
+    .responsiveMap{
+        padding: 0px !important;
+        margin-bottom: 15px;
+    }
+    
+}

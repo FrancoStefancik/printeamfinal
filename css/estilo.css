@@ -179,7 +179,8 @@ body {
   .header {
     grid-area: header; }
   .card1 {
-    grid-area: card1; }
+    grid-area: card1;
+    padding-top: 15px; }
   .card2 {
     grid-area: card2; }
   .card3 {
@@ -631,8 +632,8 @@ body {
   font-family: "roboto slab", sans-serif;
   position: relative;
   display: inline-block;
-  bottom: -110px;
-  right: -125px;
+  bottom: -164px;
+  right: -46px;
   font-size: 35px; }
 
 .textoEmpresa {
